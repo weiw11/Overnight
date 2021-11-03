@@ -1,5 +1,4 @@
 # Overnight
-## 
 *This is still a WIP project.*
 
 A MEAN Stack project to find locations to park overnight for on the road lifestyle.
@@ -31,4 +30,4 @@ Map Module
 ```
 
 Preview:
-[Image]
+![Image](https://github.com/weiw11/Overnight/blob/main/.GITHUB/images/overnight_sample.png?raw=true)
