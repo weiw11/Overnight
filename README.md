@@ -31,3 +31,10 @@ Map Module
 
 Preview:
 ![Image](https://github.com/weiw11/Overnight/blob/main/.GITHUB/images/overnight_sample.png?raw=true)
+
+## TODO:
+- [ ] API call(s) only when zoomed in.
+- [ ] API call(s) based on bounding box to reduce initial bandwidth usage.
+- [ ] Live search results dropdown
+- [ ] Fix buggy safari touch
+- [ ] Location save to storage/user accounts?
