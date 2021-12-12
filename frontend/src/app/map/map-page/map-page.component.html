@@ -1,16 +1,33 @@
 <header class="py-3">
   <div class="mx-3 d-flex flex-wrap justify-content-center">
-    <a href="/" class="d-flex align-items-center me-auto text-dark text-decoration-none">
-      <img class="headerLogo" src="/assets/overnight.svg" alt="Overnight Logo">
+    <a
+      href="/"
+      class="d-flex align-items-center me-auto text-dark text-decoration-none"
+    >
+      <img
+        class="headerLogo"
+        src="/assets/overnight.svg"
+        alt="Overnight Logo"
+      />
       <span class="fs-4">Overnight</span>
     </a>
-    <form [formGroup]="search" (ngSubmit)="submitForm()" class="form-group col-6 mb-0">
+    <form
+      [formGroup]="search"
+      (ngSubmit)="submitForm()"
+      class="form-group col-6 mb-0"
+    >
       <div class="input-group">
-          <input class="form-control" type="search" id="searchBox" formControlName="searchText" placeholder="Search place"
-          aria-describedby="search-button">
-          <button type="submit" class="btn btn-primary" id="search-button">
-            <i class="bi bi-search"></i>
-          </button>
+        <input
+          class="form-control"
+          type="search"
+          id="searchBox"
+          formControlName="searchText"
+          placeholder="Search place"
+          aria-describedby="search-button"
+        />
+        <button type="submit" class="btn btn-primary" id="search-button">
+          <i class="bi bi-search"></i>
+        </button>
       </div>
     </form>
   </div>
